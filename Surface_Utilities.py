@@ -177,7 +177,7 @@ def MakeGlyphs(src):
  
     # Choose a random subset of points.
     maskPts = vtk.vtkMaskPoints()
-    maskPts.SetOnRatio(5)
+    maskPts.SetOnRatio(2)
     maskPts.RandomModeOn()
     maskPts.SetInputData(src)
  
